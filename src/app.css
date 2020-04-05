@@ -1,0 +1,47 @@
+@media only screen and (min-width: 992px) {
+  .my-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+}
+
+.card-content {
+  background-color: #f5f5f5;
+}
+.add-remove {
+  display: flex;
+  justify-content: center;
+}
+.cart-img {
+  width: 50%;
+}
+.collection {
+  display: grid;
+  grid-gap: 10px;
+  text-align: center;
+  border: none !important;
+}
+.cart-container {
+  padding: 4em 3em;
+  background-color: black;
+  color: white;
+}
+.p-container {
+  padding: 2em 3em;
+}
+#empty {
+  padding: 1em 5em;
+}
+.collection-item {
+  background-color: black !important;
+}
+.material-icons {
+  cursor: pointer;
+}
+.card {
+  background-color: #f5f5f5;
+}
+#total {
+  text-align: center;
+  padding: 2em 0;
+}
